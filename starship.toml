@@ -15,6 +15,7 @@ $git_branch\
 $git_status\
 [ ](fg:color_bg3 bg:color_bg4)\
 $c\
+$rust\
 $dotnet\
 $java\
 $kotlin\
@@ -118,6 +119,12 @@ style = "bg:color_bg4 fg:#40a02b"
 format = '[$symbol($version)]($style)'
 symbol = " "
 
+
+[rust]
+format = '[$symbol($version)]($style)'
+style = "bg:color_bg4 fg:#C73500"
+symbol = " "
+
 # OS Symbols
 [os.symbols]
 Alpaquita = " "
@@ -163,3 +170,4 @@ Ubuntu = " "
 Unknown = " "
 Void = " "
 Windows = "󰍲 "
+
